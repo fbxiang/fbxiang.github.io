@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Search-plus</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body class="home">
+<!-- Header -->
+<header id="head">
+    <div class="container-fluid">
+        <div class="row vertical-align">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 name">
+                <a href="index.html">
+                    <h1 class="lead"><b>Fanbo Xiang</b></h1>
+                    <p class="tagline">
+                        Designer &nbsp;&nbsp; Web Developer &nbsp;&nbsp; Mobile Developer &nbsp;&nbsp; Game Developer
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <ul class="fa-ul follow-me-icons">
+
+                    <li><a class="icon" href="https://github.com/fbxiang"><i class="fa-li fa fa-github"></i>Github</a>
+                    </li>
+                    <li><a class="icon" href="https://www.facebook.com/profile.php?id=100004933159345">
+                        <i class="fa-li fa fa-facebook-square"></i>Facebook
+                    </a></li>
+                    <li><a class="icon" href="https://www.linkedin.com/in/fanbo-xiang-260511112">
+                        <i class="fa-li fa fa-linkedin-square"></i>LinkedIn
+                    </a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul class="fa-ul">
+                    <li><a href="mailto:fxiang2@illinois.edu">fxiang2@illinois.edu</a></li>
+                    <li>+1 (217)979-0754</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- /Header -->
+
+<div class="navbar-inverse headroom">
+    <div class="container">
+        <ul class="nav nav-justified">
+            <li class="dropdown">
+                <a href="assets/resume.pdf" target="_blank">Resume</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Experience</a>
+                <ul class="dropdown-menu">
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="activities.html">Academic activities</a></li>
+                    <li><a href="interests.html">Other activities</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+                <ul class="dropdown-menu">
+                    <li><a href="search_plus.html">Search Plus</a></li>
+                    <li><a href="cumtd.html">CUMTD Bus Assistant</a></li>
+                    <li><a href="physics_engine.html">Simple physics engine</a></li>
+                    <li><a href="unity.html">Unity 3D Projects</a></li>
+                    <li><a href="chord.html">Chord Analysis</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<!----------------------- start of content ------------------------------->
+	<!-- container -->
+	<div class="container">
+		<div class="row">
+			
+			<!-- Sidebar -->
+			<aside class="col-md-4 sidebar sidebar-left">
+
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Project summary</h4>
+						<ul>
+							<li>Project type: Chrome Extension</li>
+							<li>Language: javascript, HTML</li>
+							<li>Completion status: prototype completed</li>
+						</ul>
+                        This is my individual project, I designed and built everything.
+					</div>
+				</div>
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Multi-word search</h4>
+						<p><a href="assets/images/search_plus_1.png" target="_blank"><img src="assets/images/search_plus_1.png" alt=""></a></p>
+					</div>
+				</div>
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Code execution</h4>
+						<p><img src="assets/images/search_plus_2.png" alt=""></p>
+						<p><img src="assets/images/search_plus_3.png" alt=""></p>
+					</div>
+				</div>
+
+			</aside>
+			<!-- /Sidebar -->
+
+			<!-- Article main content -->
+			<article class="col-md-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Search-plus Chrome Extension</h1>
+					<p><a href="https://github.com/fbxiang/SearchPlus">https://github.com/fbxiang/SearchPlus</a></p>
+				</header>
+
+
+				<h2>A Chrome extension for multi purpose search</h2>
+				<p> This extension is designed to support more ways for searching information within a web page.
+				Currently 3 search modes are supported:</p>
+				<ul>
+					<li>normal search</li>
+					<li>multi-word search</li>
+					<li>regular expression search</li>
+				</ul>
+
+				<p>Normal search is the basic case insensitive word matching search.
+					Multi-word search let you search for multiple words at the same time.
+					Regular expression search matches javascript regular expression with content in the page.
+				</p>
+
+				<h2>An in-browser script executor</h2>
+				<p>
+					This extension exposes the javascript environment to the user. Using the code mode. Any javascript code will be evaluated.
+				</p>
+				<p>
+					I always find it annoying when I need to run some short script quickly. I have to open up text editors and
+					run commands from the terminal. Now, run some short commands while browsing? No problem! Though it has tremendous power,
+					you can call it a calculator and do some simple math with it.
+				</p>
+
+				<h2>A customizable panel</h2>
+				<p>
+					By default, there are built in commands to navigate between different modes. "/multi" for multi-word search. "/code" for code execution.
+				</p>
+
+				<p>You want more commands? No problem. "/addcmd" to add your own command. Command is based on javascript so you can do anything.
+				Please refer to the project page(on Github) for details.</p>
+
+				<img src="assets/images/search_plus_4.png">
+
+			</article>
+			<!-- /Article -->
+
+		</div>
+	</div>	<!-- /container -->
+
+
+<!----------------------- end of content ------------------------------->
+
+<footer id="footer" class="top-space">
+
+    <div class="footer1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-9 widget">
+                    <h3 class="widget-title">Contact</h3>
+                    <div class="widget-body">
+                        <p>+1 (217)-979-0754<br>
+                            <a href="mailto:fxiang2@illinois.edu">fxiang2@illinois.edu</a><br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 widget">
+                    <h3 class="widget-title">Follow me</h3>
+                    <div class="widget-body">
+                        <p class="follow-me-icons">
+                            <a href="https://github.com/fbxiang"><i class="fa fa-github fa-2"></i></a>
+                            <a href="https://www.linkedin.com/in/fanbo-xiang-260511112"><i
+                                    class="fa fa-linkedin-square fa-2"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100004933159345">
+                                <i class="fa fa-facebook-square fa-2"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- /row of widgets -->
+        </div>
+    </div>
+
+    <div class="footer2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 widget">
+                </div>
+
+                <div class="col-md-6 widget">
+                    <div class="widget-body">
+                        <p class="text-right">
+                            Copyright &copy; 2014, Fanbo Xiang. Adapted from <a href="http://gettemplate.com/"
+                                                                               rel="designer">gettemplate</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- /row of widgets -->
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>

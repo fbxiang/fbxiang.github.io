@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Chord Analysis</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!-- Custom styles for our template -->
+	<link rel="stylesheet" href="assets/css/bootstrap-theme.css" media="screen" >
+	<link rel="stylesheet" href="assets/css/main.css">
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body class="home">
+<!-- Header -->
+<header id="head">
+    <div class="container-fluid">
+        <div class="row vertical-align">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6 name">
+                <a href="index.html">
+                    <h1 class="lead"><b>Fanbo Xiang</b></h1>
+                    <p class="tagline">
+                        Designer &nbsp;&nbsp; Web Developer &nbsp;&nbsp; Mobile Developer &nbsp;&nbsp; Game Developer
+                    </p>
+                </a>
+            </div>
+            <div class="col-lg-2">
+                <ul class="fa-ul follow-me-icons">
+
+                    <li><a class="icon" href="https://github.com/fbxiang"><i class="fa-li fa fa-github"></i>Github</a>
+                    </li>
+                    <li><a class="icon" href="https://www.facebook.com/profile.php?id=100004933159345">
+                        <i class="fa-li fa fa-facebook-square"></i>Facebook
+                    </a></li>
+                    <li><a class="icon" href="https://www.linkedin.com/in/fanbo-xiang-260511112">
+                        <i class="fa-li fa fa-linkedin-square"></i>LinkedIn
+                    </a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <ul class="fa-ul">
+                    <li><a href="mailto:fxiang2@illinois.edu">fxiang2@illinois.edu</a></li>
+                    <li>+1 (217)979-0754</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- /Header -->
+
+
+<div class="navbar-inverse headroom">
+    <div class="container">
+        <ul class="nav nav-justified">
+            <li class="dropdown">
+                <a href="assets/resume.pdf" target="_blank">Resume</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Experience</a>
+                <ul class="dropdown-menu">
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="activities.html">Academic activities</a></li>
+                    <li><a href="interests.html">Other activities</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
+                <ul class="dropdown-menu">
+                    <li><a href="search_plus.html">Search Plus</a></li>
+                    <li><a href="cumtd.html">CUMTD Bus Assistant</a></li>
+                    <li><a href="physics_engine.html">Simple physics engine</a></li>
+                    <li><a href="unity.html">Unity 3D Projects</a></li>
+                    <li><a href="chord.html">Chord Analysis</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!----------------------- start of content ------------------------------->
+	<!-- container -->
+	<div class="container">
+		<div class="row">
+			
+			<!-- Sidebar -->
+			<aside class="col-md-4 sidebar sidebar-left">
+
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Project summary</h4>
+						<ul>
+							<li>Project type: program</li>
+							<li>Language: Matlab</li>
+							<li>Completion status: prototype completed</li>
+						</ul>
+                        <p>This is an individual project.</p>
+					</div>
+				</div>
+				<div class="row widget">
+					<div class="col-xs-12">
+						<h4>Load and play music</h4>
+                        <p><a href="assets/images/chord_1.png" target="_blank"><img src="assets/images/chord_1.png" alt=""></a></p>
+                        <h4>Estimate chord between time points</h4>
+                        <p><a href="assets/images/chord_2.png" target="_blank"><img src="assets/images/chord_2.png"></a></p>
+                        <h4>Track real time harmonic content</h4>
+                        <p><a href="assets/images/chord_3.png" target="_blank"><img src="assets/images/chord_3.png"></a></p>
+					</div>
+				</div>
+
+			</aside>
+			<!-- /Sidebar -->
+
+			<!-- Article main content -->
+			<article class="col-md-8 maincontent">
+				<header class="page-header">
+					<h1 class="page-title">Chord Analysis</h1>
+					<p><a href="https://github.com/fbxiang/music-analysis/">https://github.com/fbxiang/music-analysis/</a></p>
+				</header>
+
+
+				<h2>Estimate chords</h2>
+				<p>I was fascinated by the math behind music back then and decided to explore the harmonics of music.
+                    I did this project on my own to get myself familiar with music analysis and signal processing.
+                    Here are what I learned and achieved:
+                </p>
+				<ul>
+                    <li>Built a fully functional music player with Matlab</li>
+                    <li>Understood how music is stored and played</li>
+					<li>Learned basic structures of music generation</li>
+                    <li>Learned discrete Fourier transform and short time Fourier transform</li>
+                    <li>Defined chord models and assigned probability to chords according to frequencies</li>
+				</ul>
+
+                <p>Here is a video demo of the program with one music piece I wrote.</p>
+
+                <object width="100%" height="400" data="https://www.youtube.com/embed/JegukFAbSMQ"></object>
+
+            </article>
+			<!-- /Article -->
+
+		</div>
+	</div>	<!-- /container -->
+
+
+<!----------------------- end of content ------------------------------->
+
+<footer id="footer" class="top-space">
+
+    <div class="footer1">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-9 widget">
+                    <h3 class="widget-title">Contact</h3>
+                    <div class="widget-body">
+                        <p>+1 (217)-979-0754<br>
+                            <a href="mailto:fxiang2@illinois.edu">fxiang2@illinois.edu</a><br>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 widget">
+                    <h3 class="widget-title">Follow me</h3>
+                    <div class="widget-body">
+                        <p class="follow-me-icons">
+                            <a href="https://github.com/fbxiang"><i class="fa fa-github fa-2"></i></a>
+                            <a href="https://www.linkedin.com/in/fanbo-xiang-260511112"><i
+                                    class="fa fa-linkedin-square fa-2"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100004933159345">
+                                <i class="fa fa-facebook-square fa-2"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div> <!-- /row of widgets -->
+        </div>
+    </div>
+
+    <div class="footer2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 widget">
+                </div>
+
+                <div class="col-md-6 widget">
+                    <div class="widget-body">
+                        <p class="text-right">
+                            Copyright &copy; 2014, Fanbo Xiang. Adapted from <a href="http://gettemplate.com/"
+                                                                               rel="designer">gettemplate</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div> <!-- /row of widgets -->
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="assets/js/headroom.min.js"></script>
+	<script src="assets/js/jQuery.headroom.min.js"></script>
+	<script src="assets/js/template.js"></script>
+</body>
+</html>
